@@ -1,11 +1,17 @@
 $custom-primary: #A084DC;
+
 .btn-custom-primary {
-    background-color: $custom-primary;
-    border-color: $custom-primary;
-    color: aliceblue;
-  }
-  .btn-custom-primary:hover {
-    background-color: darken($custom-primary, 10%);
-    border-color: darken($custom-primary, 10%);
-    color: aliceblue;
-  }
+  background-color: $custom-primary;
+  border-color: $custom-primary;
+  color: aliceblue;
+}
+
+.btn-custom-primary:hover {
+  background-color: darken($custom-primary, 10%);
+  border-color: darken($custom-primary, 10%);
+  color: aliceblue;
+}
+
+.todo-title{
+  color: #A084DC;
+}
