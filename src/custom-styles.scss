@@ -1,4 +1,5 @@
 $custom-primary: #A084DC;
+$tag-color:#deaded;
 
 .btn-custom-primary {
   background-color: $custom-primary;
@@ -9,6 +10,18 @@ $custom-primary: #A084DC;
 .btn-custom-primary:hover {
   background-color: darken($custom-primary, 10%);
   border-color: darken($custom-primary, 10%);
+  color: aliceblue;
+}
+
+.btn-check:checked+.btn{
+  background-color: darken($tag-color, 10%);
+  border-color: darken($tag-color, 10%);
+  color: aliceblue;
+}
+
+.btn-tag-color {
+  background-color: $tag-color;
+  border-color: $tag-color;
   color: aliceblue;
 }
 
