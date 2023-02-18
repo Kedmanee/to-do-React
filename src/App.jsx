@@ -3,15 +3,14 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom-styles.scss';
 import Todo from './component/todoListCard';
-import ToDoModal from './component/addToDoModal';
 
 function App() {
   const [count, setCount] = useState(0)
-  const list = { now: ["Clean Room", "Sw Homework"], later: ["HID Homework"] }
+  const list = { now: [{name:"Clean Room",tag:"Home"}, {name:"SW Homework",tag:"Uni"}], later: [{name:"HID Homework",tag:"Uni"}] }
   return (
     <>
       <Todo list = {list}/>
-      <ToDoModal/>
+      
     </>
   );
 }
