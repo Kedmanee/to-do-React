@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom-styles.scss';
-import Todo from './component/todoListCard';
+import Todo from './components/todoListCard';
 
 function App() {
   const [count, setCount] = useState(0)
